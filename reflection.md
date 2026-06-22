@@ -5,8 +5,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  The UI/UX was friendly and the instructions. The title displayed immedaitely gave an idea of what the game was about. The hints seemed to always say "Go lower" though. 
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  1. The hints always said "Go lower"
+  2. New Game button does not clear old inputs
+  3. The Game Score does not reset with each new game 
 
 **Bug Reproduction Log**
 
@@ -14,9 +18,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| 20    | Go Higher         | Go Lower        |       "none"           |  
+| 15    | Go Higher         | Go Lower        |        "none"          | 
+| 5     | Go Higher         | Go Lower        |        "none"          | 
 
 ---
 
