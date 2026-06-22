@@ -5,12 +5,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
-  The UI/UX was friendly and the instructions. The title displayed immedaitely gave an idea of what the game was about. The hints seemed to always say "Go lower" though. 
+  The UI/UX was friendly and the instructions. The title displayed immediately gave an idea of what the game was about. The hints were inconsistent and often told me to "Go lower" when I actually needed to guess higher.
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
-  1. The hints always said "Go lower"
-  2. New Game button does not clear old inputs
-  3. The Game Score does not reset with each new game 
+  1. The hint direction was backwards/inconsistent ("Go lower" when the guess was too low).
+  2. The New Game button did not clear old input/history state.
+  3. The game score did not reset with each new game.
 
 **Bug Reproduction Log**
 
@@ -18,9 +18,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| 20    | Go Higher         | Go Lower        |       "none"           |  
-| 15    | Go Higher         | Go Lower        |        "none"          | 
-| 5     | Go Higher         | Go Lower        |        "none"          | 
+| 20    | Go Higher         | Hint said "Go Lower" (wrong direction) | "none" |  
+| 15    | Go Higher         | Hint said "Go Lower" (wrong direction) | "none" | 
+| 5     | Go Higher         | Hint said "Go Lower" (wrong direction) | "none" | 
 
 ---
 
