@@ -45,9 +45,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 🧪 Test Results
 
 ```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
+$ python3 -m pytest tests/test_game_logic.py
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/austinstanleyhinson/Desktop/AI-110/AI-110-module1show-gameglitchinvestigator
+collected 4 items
+
+tests/test_game_logic.py ....                                            [100%]
+
+============================== 4 passed in 0.01s ===============================
 ```
 
 ## 🚀 Stretch Features
